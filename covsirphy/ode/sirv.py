@@ -25,7 +25,7 @@ class SIRV(ModelBase):
         vacrate (float)
     """
     # Model name
-    NAME = "SIRV"
+    NAME = "SIR-V"
     # names of parameters
     PARAMETERS = ["theta", "kappa", "rho", "sigma","phi","beta","myu","gammaa","delta","vacrate"]
     DAY_PARAMETERS = [
