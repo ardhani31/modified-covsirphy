@@ -22,6 +22,7 @@ from covsirphy.ode.mbase import ModelBase
 from covsirphy.ode.sir import SIR
 from covsirphy.ode.sird import SIRD
 from covsirphy.ode.sirf import SIRF
+from covsirphy.ode.sirf import SIRV
 from covsirphy.regression.reg_handler import RegressionHandler
 from covsirphy.analysis.data_handler import DataHandler
 from covsirphy.analysis.phase_tracker import PhaseTracker
