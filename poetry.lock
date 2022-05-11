@@ -1251,14 +1251,13 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "plotly"
-version = "5.4.0"
+version = "5.8.0"
 description = "An open-source, interactive data visualization library for Python"
 category = "dev"
 optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
-six = "*"
 tenacity = ">=6.2.0"
 
 [[package]]
@@ -2146,7 +2145,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "23d3111ec2d78880d7143fe01e91bc741936468ed0d7757284f92f7e4e12a127"
+content-hash = "0cdd1fae7d2cf1481b8f557a13a40dea96f9aad32462b5f21b98e8c0803b61e4"
 
 [metadata.files]
 alabaster = [
@@ -2974,8 +2973,8 @@ pillow = [
     {file = "Pillow-8.4.0.tar.gz", hash = "sha256:b8e2f83c56e141920c39464b852de3719dfbfb6e3c99a2d8da0edf4fb33176ed"},
 ]
 plotly = [
-    {file = "plotly-5.4.0-py2.py3-none-any.whl", hash = "sha256:1e5c1a5c87caaf68ce0d9872d4636e3ce1f82c7f6988eb20905ff5b58e57525c"},
-    {file = "plotly-5.4.0.tar.gz", hash = "sha256:735d50738c760ecbf3a38e2336b8c1b119bff2d857096e4f68af31089b798161"},
+    {file = "plotly-5.8.0-py2.py3-none-any.whl", hash = "sha256:0e6e2382aafe2b2978d2c1b10ea93e73ad1ec80fa9a195ff6eea62af7905dfdc"},
+    {file = "plotly-5.8.0.tar.gz", hash = "sha256:58cef3292f5994d82154d51fbc7338c48009fc47ea32ffe052ad29aaa15e0df9"},
 ]
 pluggy = [
     {file = "pluggy-1.0.0-py2.py3-none-any.whl", hash = "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"},
