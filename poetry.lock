@@ -1601,7 +1601,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
 
 [[package]]
 name = "ruptures"
-version = "1.1.5"
+version = "1.1.7"
 description = "Change point detection for signals in Python."
 category = "main"
 optional = false
@@ -1614,7 +1614,7 @@ scipy = "*"
 [package.extras]
 dev = ["pre-commit"]
 display = ["matplotlib"]
-docs = ["jupyter", "librosa", "matplotlib", "mkdocs (==1.1.2)", "mkdocs-macros-plugin", "mkdocs-material", "mkdocstrings", "mknotebooks", "pymdown-extensions", "nltk"]
+docs = ["jupyter", "librosa", "matplotlib", "mkdocs", "mkdocs-macros-plugin", "mkdocs-material", "mkdocs-section-index", "mkdocstrings[python] (>=0.18)", "mknotebooks", "pymdown-extensions", "nltk"]
 test = ["pytest", "pytest-cov"]
 
 [[package]]
@@ -3225,31 +3225,32 @@ requests = [
     {file = "requests-2.26.0.tar.gz", hash = "sha256:b8aa58f8cf793ffd8782d3d8cb19e66ef36f7aba4353eec859e74678b01b07a7"},
 ]
 ruptures = [
-    {file = "ruptures-1.1.5-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:ad72aff4817304fb13ea6514c512c3012a3bbdd712d090ac43800abc6dcd2526"},
-    {file = "ruptures-1.1.5-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c8886e659c6596558a3c1cf18aa8568f9c93172d967e590f3c3b08e994c3342b"},
-    {file = "ruptures-1.1.5-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:6d5b8d7e5e990d923ae3f87cb2b37d6f493f6a8a077da168d2d4b49ad479e4df"},
-    {file = "ruptures-1.1.5-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:0d240ccd26b245011a759dfbac5db136d1670cee34c2149a530354367a98f52c"},
-    {file = "ruptures-1.1.5-cp36-cp36m-win32.whl", hash = "sha256:307f41344f3bb2585453f8e5573cdba47ffcd20a4dca398caae5da87fb295c28"},
-    {file = "ruptures-1.1.5-cp36-cp36m-win_amd64.whl", hash = "sha256:1c593e6b2f3590540bdde57d7d464d171d8baa3e92671e1810c6ac7da57139ec"},
-    {file = "ruptures-1.1.5-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:c083ebb51bc0ac3dd0b57b018dca4fd32b6f9b8a419513ca5ba1c9eee45acac0"},
-    {file = "ruptures-1.1.5-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4a235c0276bb893a0e2223333b6adf65a64bb5d2ff245a803a22f3e60272ce4a"},
-    {file = "ruptures-1.1.5-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:2fdf314463f7276d8d3c55c8a9c920fe6884cf8e0dcff78eb181e4c409d3feef"},
-    {file = "ruptures-1.1.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:ea8d1487e0395c5b72fa52ba368b017640f66b69fedbfaa6110f387b947b25b7"},
-    {file = "ruptures-1.1.5-cp37-cp37m-win32.whl", hash = "sha256:a18c1fe4d98a698c00bcc78caa6a612aace32d13f3129a3dc203c8d06df4de6e"},
-    {file = "ruptures-1.1.5-cp37-cp37m-win_amd64.whl", hash = "sha256:5a54aba3876976ef3b7c861b5fa7b058017a132ec51340551bc35f59d1ce6f2d"},
-    {file = "ruptures-1.1.5-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:0090b09e2557c178a08a8bbb96b31e34e3e486c6efa4400bd6fbd6d1c66d2625"},
-    {file = "ruptures-1.1.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6c214fde3299d91eb54d20f0d967627a5214bd37023c507acf9519a82ab7da1c"},
-    {file = "ruptures-1.1.5-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:8680e5de2ee3f3e00b13904b742c549c33aea5a97768b4fc96985bd62e2f4d81"},
-    {file = "ruptures-1.1.5-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:b41e365897a00cb40bb0b8d2da34f2a68cd7755f7e2b43b9222f4b638d6f9373"},
-    {file = "ruptures-1.1.5-cp38-cp38-win32.whl", hash = "sha256:a2710bbffa66788a30478cb623d91a27d44ea8f08bef0c4798f97acf25fe0ad5"},
-    {file = "ruptures-1.1.5-cp38-cp38-win_amd64.whl", hash = "sha256:8fd9f8fb984ef50741f1d56891d772ad2aabbf6c01ee160858be3985b6b137a2"},
-    {file = "ruptures-1.1.5-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:087f6252053fc51c2d9cd72c04421dbf5ed9f582b8469b560ea81658d9fb24e3"},
-    {file = "ruptures-1.1.5-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8f28d7c91c906660d1090881918c208b35537b3c83ce50cb207f3d1d7b7e1cfe"},
-    {file = "ruptures-1.1.5-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:45f6c0e7fb610f7d8af6237beb556789c0f3e4e174d766d4a71132e9d7df816a"},
-    {file = "ruptures-1.1.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:2ce0480d65c5923678935e7bf7b8d3e7fb9141bdb406a2c5b1e86fcc89068aad"},
-    {file = "ruptures-1.1.5-cp39-cp39-win32.whl", hash = "sha256:f1bd62c8e81aaec94f6da65d7ca8481e890f37319b61ca7351e709bb474338c9"},
-    {file = "ruptures-1.1.5-cp39-cp39-win_amd64.whl", hash = "sha256:b9e9194fe649e2c6a08347751fde1a11fd7ef3182eeb1687d019f494f923c657"},
-    {file = "ruptures-1.1.5.tar.gz", hash = "sha256:fcf1d51e0abfd1aaea7d414c98af5d939990f061944a9b6587a8defa0bb54cff"},
+    {file = "ruptures-1.1.7-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:50f9287f41083936282fab710b9a7575ca8caed5f87e914c3b987a5f9da45091"},
+    {file = "ruptures-1.1.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2d38158866f0d2c77b99abd1c592d707d06841ee08c557489d0bf01b51580dbb"},
+    {file = "ruptures-1.1.7-cp310-cp310-win_amd64.whl", hash = "sha256:79b1d3bf70b6e2dc5cb7655ec0a8c8f2044c1eb9c418bc82d763aa19c3e3579b"},
+    {file = "ruptures-1.1.7-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:5bd9f2e07549dcdf4680a4e62ec0ff2a7609b2d2077d311af8105dff11edd397"},
+    {file = "ruptures-1.1.7-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:53ecdbe1855d6ce6b19ad0b10db9ef47aba936701c7eabe04213703d448cd26a"},
+    {file = "ruptures-1.1.7-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:77a23136987a9462715e45b9809dafc7d2c147b24344eaae5c111a61f38c0f1c"},
+    {file = "ruptures-1.1.7-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:15798c374cc34b77aad31e34d5b3df171611a3bc5c3860a2a5fa75e87d40e197"},
+    {file = "ruptures-1.1.7-cp36-cp36m-win32.whl", hash = "sha256:cdd017dc764b50b63f23d7746a5fd56cd9375708c52c0ce0e371409ee295e008"},
+    {file = "ruptures-1.1.7-cp36-cp36m-win_amd64.whl", hash = "sha256:9bae92edfec8b316b175b9cee9212c7cf7c6c1cb7cec2ae617a9aefe68a743eb"},
+    {file = "ruptures-1.1.7-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:0ea08c711620340d90f62f1f64b548c7d8668151538a8b484b1441fdc78a9e1f"},
+    {file = "ruptures-1.1.7-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9937a6159e9a90f90b33ee615744f7614bc7b016b9229d72ae0480b739c8a68d"},
+    {file = "ruptures-1.1.7-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:026653b8fe25efe94ce286b4778d5e4ebb01ac20ccf766a37dd49388caa30cfb"},
+    {file = "ruptures-1.1.7-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:e0c6295db118a0c9c179f1840b6bfd2bd6940c805bfbaffdf0a74cda8dd7aea9"},
+    {file = "ruptures-1.1.7-cp37-cp37m-win32.whl", hash = "sha256:85914155d5710bf0a06cd6450c3dae05765ab5387d1d452169d3048d9f4f0366"},
+    {file = "ruptures-1.1.7-cp37-cp37m-win_amd64.whl", hash = "sha256:91dca88504be4b85360a969c9852976507fe3db1faba21d6a61772b7b0fa5f1a"},
+    {file = "ruptures-1.1.7-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:a152cfe810bba7f44135162656a5da8d94ce8387a78e5b7305fa3677e405f79b"},
+    {file = "ruptures-1.1.7-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:94081f7323cc887ca90b0b3e58a592af7c1e31c3f14913018f4a159033271a12"},
+    {file = "ruptures-1.1.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f4395c87318d86190087aa40653dffca48e1f4f8056e477011f1797c1739957a"},
+    {file = "ruptures-1.1.7-cp38-cp38-win32.whl", hash = "sha256:ad59a29598a281356fb37db78cf795bd85384d2e1d2aa280c5d4d5d16ed2d46c"},
+    {file = "ruptures-1.1.7-cp38-cp38-win_amd64.whl", hash = "sha256:efe446ff37b0a13b71b0453518415786e70bf696a82527b11f8e4bf79ce7425f"},
+    {file = "ruptures-1.1.7-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:a663f64ff57219f760ab2e029365c1d5d194701690c477072c774aa0dd5f13e8"},
+    {file = "ruptures-1.1.7-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1e6a920747e3aa64f1527a5cefa2662501887bf723597f0f37936c5bd7aa5a7a"},
+    {file = "ruptures-1.1.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:51b98ddd159d5da43241a5045f3df83c3b898b9630e8d1022725fef5d6f87b08"},
+    {file = "ruptures-1.1.7-cp39-cp39-win32.whl", hash = "sha256:aa6684ecdce29295da8d0ef84da49d8d05c086a38dac1004ad7f45943323de51"},
+    {file = "ruptures-1.1.7-cp39-cp39-win_amd64.whl", hash = "sha256:82557cc173c38b35fc02f458431f67befec53cb298994c238d98a1e477c224b1"},
+    {file = "ruptures-1.1.7.tar.gz", hash = "sha256:a114a17bcc3e5a3ab609c9e5e2a8d23f407f8031604330867d0ca47ad53fff97"},
 ]
 scikit-learn = [
     {file = "scikit-learn-0.24.2.tar.gz", hash = "sha256:d14701a12417930392cd3898e9646cf5670c190b933625ebe7511b1f7d7b8736"},
